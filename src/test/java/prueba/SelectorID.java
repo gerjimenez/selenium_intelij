@@ -56,6 +56,11 @@ public class SelectorID {
             System.out.println( elemento.getText());
         }
         System.out.println("----------------------------------");
+        
+        for ( WebElement elemento : elementos4){
+            System.out.println( elemento.getCssValue( "font-family"));
+        }
+        System.out.println("----------------------------------");
 
         List<WebElement> elementos5 = webDriver.findElements(By.xpath("//*[@id=\"people\"]/div/div/div[3]/div/h3"));
 
