@@ -40,6 +40,7 @@ public class PropiedadesNavegador {
 
         String titulo = webDriver.getTitle();
         System.out.println(titulo);
+        
 
         // webDriver.close();  */
 
