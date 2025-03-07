@@ -56,7 +56,7 @@ public class SelectorID {
             System.out.println( elemento.getText());
         }
         System.out.println("----------------------------------");
-        
+
         for ( WebElement elemento : elementos4){
             System.out.println( elemento.getCssValue( "font-family"));
         }
