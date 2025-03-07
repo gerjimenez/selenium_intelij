@@ -24,6 +24,7 @@ public class RatonTeclado {
         Alert alerta = webDriver.switchTo().alert();
         System.out.println(alerta.getText()); */
 
+        // Simular el evento de mover el ratón sobre una imagen llamada "vitamin_a" en una página web
         /* WebElement imagen = webDriver.findElement(By.id("vitamin_a"));
 
         Actions action = new Actions(webDriver);
@@ -32,6 +33,10 @@ public class RatonTeclado {
         Alert alerta1 = webDriver.switchTo().alert();
         System.out.println(alerta1.getText()); */
 
+        // Primero se selecciona todo el cuerpo del documento mediante el comando `findElement()`
+        // con la etiqueta `body` y luego se invoca el método `sendKeys` de dicho objeto,
+        // al cual le pasamos como argumento la tecla `ENTER` mediante el módulo `Keys`,
+        // con el que podemos llamar esta y otras teclas.
         WebElement documento = webDriver.findElement(By.tagName("body"));
         documento.sendKeys(Keys.ENTER);
 
