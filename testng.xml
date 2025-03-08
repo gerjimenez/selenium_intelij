@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pruebas generales">
+    <test verbose="2" preserve-order="true" name="C:/Users/Gerardo Jimenez Diez/IdeaProjects/SeleniumMaven/src/test">
+        <classes>
+            <class name="prueba.Prueba">
+                <methods>
+                    <include name="pruebaInicial"/>
+                    <include name="pruebaDos"/>
+                    <include name="pruebaTres"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
