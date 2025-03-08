@@ -10,6 +10,7 @@ public class validacion_drivers {
 
     public static void main(String[] args) {
 
+        // desde cmd  static-server
         //validando edgedriver
         System.setProperty("webdriver.edge.driver", "C:\\Users\\Gerardo Jimenez Diez\\drivers_webs\\edgedriver\\msedgedriver.exe");
         WebDriver driver_edge = new EdgeDriver();
